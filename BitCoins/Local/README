@@ -1,0 +1,3 @@
+First you should compile this file
+> scalac LocalMinning.scala
+> scala LocalMinning k(your requirement of number of leading 0)
