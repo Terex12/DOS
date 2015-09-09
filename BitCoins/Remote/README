@@ -1,0 +1,4 @@
+1. cd BitCoins/Remote/coin/Remote
+2. sbt run
+3. cd BitCoins/Remote/coin/Local
+4. sbt run

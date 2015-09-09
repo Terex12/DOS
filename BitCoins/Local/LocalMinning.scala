@@ -5,53 +5,45 @@ import akka.routing.RoundRobinRouter
 import java.security.{SecureRandom, MessageDigest}
 import scala.collection.mutable.Map
 
+
 /**
  * @author Terence
  */
 
 
 object LocalMinning {
-  
-  //Message
   sealed trait Message
   case object MiningRequest extends Message  
-  case class Work(k: Int, prefix: String, random: String) extends Message
+  //case class Work(k: Int, prefix: String, random: String) extends Message
+  case class Work(k: Int, prefix: String, times: Int) extends Message
   case class RightResult(in: String, hashString: String) extends Message 
   case class WrongResult(in: String, hashString: String) extends Message 
   case class Coins(coins: Map[String, String]) extends Message
+  case object Terminal extends Message
+  case object Available extends Message
+  
 
   class Master(k: Int, prefix: String, listener: ActorRef) extends Actor{ 
-    var count  = 0;
+    var remoteClose = 0
+    var numberOfSlave = 0
     val map = Map[String, String]()  //return result
   
     def receive = {
       case MiningRequest => {
         val processes = Runtime.getRuntime().availableProcessors()
-        val numberOfSlave = processes
+        numberOfSlave = processes+2
+        val times = 100000;
         val workerRouter = context.actorOf(Props[Slave].withRouter(RoundRobinRouter(numberOfSlave)), name = "workerRouter")
-        
-        for(i <- 1 to 100000) {
-          val helper = new helptool()
-          val random = scala.util.Random.alphanumeric.take(8).mkString
-          workerRouter ! Work(k, prefix, random)
+        for (i <- 1 to numberOfSlave){
+          workerRouter ! Work(k, prefix, times)
         }
       }
-      case RightResult(in, hashString) => {
-        count += 1
-        map += (in -> hashString)
-        if(count == 100000) {
+      case RightResult(in, hashString) => map += (in -> hashString)
+  
+      case Terminal => {
+        remoteClose += 1
+        if (remoteClose == numberOfSlave)
           listener ! Coins(map)
-          // Stops this actor and all its supervised children
-          context.stop(self)
-        } 
-      }
-      case WrongResult(in, hashString) => {
-        count += 1
-        if(count == 100000) {
-          listener ! Coins(map)
-          // Stops this actor and all its supervised children
-          context.stop(self)
-        } 
       }
       case _ => {println("Huh?")}
     }
@@ -59,13 +51,15 @@ object LocalMinning {
 
   class Slave extends Actor {
     def receive = {
-      case Work(k: Int, prefix: String, random: String) => {
+      case Work(k: Int, prefix: String, times: Int) => {
         val helper = new helptool()
-        val hashString = helper.sha256(prefix, random)  //perform work, calculate hash
-        if (helper.judgeCoins(k, hashString))
-          sender! RightResult(prefix+";"+random, hashString) //send result back
-         else
-          sender! WrongResult(prefix+";"+random, hashString) //send result back
+        for (i <- 1 to times){
+          val random = scala.util.Random.alphanumeric.take(8).mkString
+          val hashString = helper.sha256(prefix, random)  //perform work, calculate hash
+          if (helper.judgeCoins(k, hashString))
+            sender! RightResult(prefix+";"+random, hashString) //send result back
+        }
+        sender ! Terminal
       }   
     }
   }
@@ -81,7 +75,8 @@ object LocalMinning {
       }
     }
   }
-
+  
+  
   class helptool{
     //SHA256 hash function
     def sha256(prefix: String, random: String): String = {
@@ -109,11 +104,11 @@ object LocalMinning {
    def main(args: Array[String]) {
     val system = ActorSystem("CoinMiningSystem")
     //sbt run
-    //println("Enter 'k' - the required number of leading zeroes : ")
-    //val k = readInt         //requirement
+    println("Enter 'k' - the required number of leading zeroes : ")
+    val k = readInt         //requirement
     
     //scala LocalMinning.scala
-    val k = args(0).toInt
+    //val k = args(0).toInt
     val prefix = "xyfsoham"      //gatorID
     
     val listener: ActorRef = system.actorOf(Props[Listener], name = "listener")
@@ -123,5 +118,3 @@ object LocalMinning {
   }
 
 }
-
-
