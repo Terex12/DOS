@@ -39,6 +39,7 @@ object Local {
         println("Wait for while to shut down")
         Thread.sleep(8000)
         //context.system.shutdown()
+        context.stop(self)
 
       }
       case _ => 
@@ -71,14 +72,17 @@ object Local {
 
 def main(args: Array[String]) {
     val system = ActorSystem("LocalSystem")
+
+    val k = Integer.parseInt(args(0))
+    println("K is : " + k)
+    val IP = args(1)
+    println("Enter remote IP address : " + IP)
     //sbt run
-    println("Enter 'k' - the number of leading zeroes : ")
-    val k = readInt         //requirement
-    println("Enter remote IP address : ")
-    val IP = Console.readLine
+    //println("Enter 'k' - the number of leading zeroes : ")
+    //val k = readInt         //requirement
+    //println("Enter remote IP address : ")
+    //val IP = Console.readLine
     
-    //scala LocalMinning.scala
-    //val k = args(0).toInt
     val prefix = "xyfsoham"      //gatorID
     
     val localActor = system.actorOf(Props(new LocalActor(IP)), name = "LocalActor")

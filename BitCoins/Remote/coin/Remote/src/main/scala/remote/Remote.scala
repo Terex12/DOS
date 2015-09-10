@@ -94,11 +94,11 @@ object Remote {
    def main(args: Array[String]) {
     val system = ActorSystem("RemoteSystem")
     //sbt run
-    println("Enter 'k' - the number of leading zeroes : ")
-    val k = readInt         //requirement
+    val k = Integer.parseInt(args(0))
+    println("K is : " + k)
+    //println("Enter 'k' - the number of leading zeroes : ")
+    //val k = readInt         //requirement
     
-    //scala LocalMinning.scala
-    //val k = args(0).toInt
     val prefix = "xyfsoham"      //gatorID
     
     val listener: ActorRef = system.actorOf(Props[Listener], name = "listener")

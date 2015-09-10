@@ -31,8 +31,9 @@ object LocalMinning {
     def receive = {
       case MiningRequest => {
         val processes = Runtime.getRuntime().availableProcessors()
-        numberOfSlave = processes+2
-        val times = 100000;
+        numberOfSlave = processes*8
+        //println("NUmber : " + numberOfSlave)
+        val times = 10000000;
         val workerRouter = context.actorOf(Props[Slave].withRouter(RoundRobinRouter(numberOfSlave)), name = "workerRouter")
         for (i <- 1 to numberOfSlave){
           workerRouter ! Work(k, prefix, times)
@@ -104,11 +105,13 @@ object LocalMinning {
    def main(args: Array[String]) {
     val system = ActorSystem("CoinMiningSystem")
     //sbt run
-    println("Enter 'k' - the required number of leading zeroes : ")
-    val k = readInt         //requirement
+    //println("Enter 'k' - the required number of leading zeroes : ")
+    //val k = readInt         //requirement
+    val k = Integer.parseInt(args(0))
+    println("K is : " + k)
     
     //scala LocalMinning.scala
-    //val k = args(0).toInt
+    val k = args(0).toInt
     val prefix = "xyfsoham"      //gatorID
     
     val listener: ActorRef = system.actorOf(Props[Listener], name = "listener")
