@@ -36,9 +36,9 @@ object Local {
           
       }
       case Stop => {
-        println("Wait for while")
+        println("Wait for while to shut down")
         Thread.sleep(8000)
-        context.system.shutdown()
+        //context.system.shutdown()
 
       }
       case _ => 
@@ -48,6 +48,7 @@ object Local {
   
   class Slave(IP: String) extends Actor {
     val remote = context.actorFor("akka.tcp://RemoteSystem@" + IP + "/user/RemoteActor")
+    //val remote = context.actorFor("akka.tcp://RemoteSystem@127.0.0.1:2552/user/RemoteActor")
     var number = 0
     def receive = {
       case Work(k: Int, prefix: String, times: Int) => {
@@ -61,6 +62,7 @@ object Local {
             remote ! RightResult(prefix+";"+random, hashString) //send result back
           }
         }
+        println("remote get : " + number)
         Thread.sleep(number*200)    //wait finish transport
         sender ! Terminal
       }   

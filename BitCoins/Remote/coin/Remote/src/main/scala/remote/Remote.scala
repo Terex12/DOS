@@ -17,7 +17,7 @@ object Remote {
     var remoteClose = 0
     var numberOfSlave = 0
     var remoteNumber = 0
-    val times = 1000
+    val times = 100
     val map = Map[String, String]()  //return result
   
     def receive = {
@@ -68,6 +68,7 @@ object Remote {
             sender! RightResult(prefix+";"+random, hashString) //send result back
           }
         }
+        println("local get : " + number)
         Thread.sleep(number*500)    //wait finish transport
         sender ! Terminal
       }
