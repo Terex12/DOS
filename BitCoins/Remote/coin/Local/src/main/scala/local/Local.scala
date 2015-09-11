@@ -73,10 +73,13 @@ object Local {
 def main(args: Array[String]) {
     val system = ActorSystem("LocalSystem")
 
-    val k = Integer.parseInt(args(0))
+    
+    val IP = args(0)
+    val port = args(1)
+    println("Enter remote IP address : " + IP + " : " + port)
+    val k = Integer.parseInt(args(2))
     println("K is : " + k)
-    val IP = args(1)
-    println("Enter remote IP address : " + IP)
+    val ipGen = IP + ":" + port
     //sbt run
     //println("Enter 'k' - the number of leading zeroes : ")
     //val k = readInt         //requirement
@@ -85,7 +88,7 @@ def main(args: Array[String]) {
     
     val prefix = "xyfsoham"      //gatorID
     
-    val localActor = system.actorOf(Props(new LocalActor(IP)), name = "LocalActor")
+    val localActor = system.actorOf(Props(new LocalActor(ipGen)), name = "LocalActor")
     localActor ! "The Slave is alive!"
   }
   

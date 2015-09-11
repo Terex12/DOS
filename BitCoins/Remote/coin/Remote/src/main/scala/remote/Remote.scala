@@ -5,6 +5,7 @@ import akka.routing.RoundRobinRouter
 import java.security.{SecureRandom, MessageDigest}
 import scala.collection.mutable.Map
 import common.{MiningRequest, Work, RightResult, Coins, Available, Terminal, Stop, helptool}
+import com.typesafe.config.ConfigFactory
 
 /**
  * @author Terence
@@ -17,7 +18,7 @@ object Remote {
     var remoteClose = 0
     var numberOfSlave = 0
     var remoteNumber = 0
-    val times = 100
+    val times = 100000
     val map = Map[String, String]()  //return result
   
     def receive = {
@@ -92,10 +93,33 @@ object Remote {
   
   
    def main(args: Array[String]) {
-    val system = ActorSystem("RemoteSystem")
+    //val system = ActorSystem("RemoteSystem")
+    val IP = args(0)
+    val port = args(1)
+
+    println()
+
+    val system = ActorSystem("RemoteSystem", ConfigFactory.parseString("""
+  akka {
+  # loglevel = "DEBUG"
+  actor {
+     provider = "akka.remote.RemoteActorRefProvider"
+  }
+  remote {
+     enabled-transports = ["akka.remote.netty.tcp"]
+     netty.tcp {
+         hostname = """ + IP + """
+         port = """ + port + """
+     }
+  }
+}
+  
+  """))
+
     //sbt run
-    val k = Integer.parseInt(args(0))
+    val k = Integer.parseInt(args(2))
     println("K is : " + k)
+    println("Current IP is : " + IP + " : " + port)
     //println("Enter 'k' - the number of leading zeroes : ")
     //val k = readInt         //requirement
     

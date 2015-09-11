@@ -33,7 +33,7 @@ object LocalMinning {
         val processes = Runtime.getRuntime().availableProcessors()
         numberOfSlave = processes*8
         //println("NUmber : " + numberOfSlave)
-        val times = 10000000;
+        val times = 1000000;
         val workerRouter = context.actorOf(Props[Slave].withRouter(RoundRobinRouter(numberOfSlave)), name = "workerRouter")
         for (i <- 1 to numberOfSlave){
           workerRouter ! Work(k, prefix, times)
@@ -111,7 +111,6 @@ object LocalMinning {
     println("K is : " + k)
     
     //scala LocalMinning.scala
-    val k = args(0).toInt
     val prefix = "xyfsoham"      //gatorID
     
     val listener: ActorRef = system.actorOf(Props[Listener], name = "listener")
