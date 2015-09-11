@@ -18,7 +18,7 @@ object Remote {
     var remoteClose = 0
     var numberOfSlave = 0
     var remoteNumber = 0
-    val times = 100000
+    val times = 1000000
     val map = Map[String, String]()  //return result
   
     def receive = {
