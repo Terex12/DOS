@@ -1,0 +1,455 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+21 items
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$1.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$1$$anonfun$2.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$1.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$2$$anonfun$3.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$2.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Moniter$$anonfun$receive$1.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Moniter.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/start$.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/start.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/GossipNode$$anonfun$GenerateNeighbours$1.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/GossipNode$$anonfun$receive$1.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/GossipNode.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/PushSumNode$$anonfun$GenerateNeighbours$2.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/PushSumNode$$anonfun$receive$2.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/PushSumNode.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopGossip$.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopGossip.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopPushSum$.class
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopPushSum.class
+binary dependencies:
+9 items
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Users/Terence/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Users/Terence/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> /Users/Terence/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> /Users/Terence/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+3 items
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> /Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+21 items
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Gossip
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Gossip$
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Gossip$$anonfun$1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Gossip$$anonfun$main$1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Gossip$$anonfun$main$1$$anonfun$2
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Gossip$$anonfun$main$2
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Gossip$$anonfun$main$2$$anonfun$3
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Moniter
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Moniter$$anonfun$receive$1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> start
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> start$
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> GossipNode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> GossipNode$$anonfun$GenerateNeighbours$1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> GossipNode$$anonfun$receive$1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> PushSumNode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> PushSumNode$$anonfun$GenerateNeighbours$2
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> PushSumNode$$anonfun$receive$2
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> loopGossip
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> loopGossip$
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> loopPushSum
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> loopPushSum$
+used names:
+266 items
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> !
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> +
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> -
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> <init>
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> ==
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> ActorSystem
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> AnyRef
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Array
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> ClassTag
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Gossip
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> GossipNode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Moniter
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Predef
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Props
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> PushSumNode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Random
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> String
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> Unit
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> actor
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> actorFor
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> actorOf
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> actorRef2Scala
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> akka
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> algo
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> apply
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> args
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> augmentString
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> equalsIgnoreCase
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> firstNode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> foreach
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> i
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> intWrapper
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> length
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> materializeClassTag
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> moniter
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> nextInt
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> node
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> numNode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> package
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> path
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> println
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> qual$1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> qual$2
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> qual$3
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> qual$4
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> scala
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> system
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> to
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> toInt
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> toString
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> topology
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> util
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> x$1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> x$2
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> x$3
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> x$4
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> x$5
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> x$6
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> x$7
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> x$8
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> &&
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> +
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> -
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> <init>
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> ==
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> >=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> A1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> AbstractFunction2
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Actor
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> ActorRef
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> ActorSystem
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> B1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Function1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Int
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> ListBuffer
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Long
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Moniter
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> None
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> PoisonPill
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Predef
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Product
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Prop
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Props
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Random
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> ScalaRunTime
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Serializable
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> Statics
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> System
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> _toString
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> actor
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> akka
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> aliveNode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> aliveNode_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> apply
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> asInstanceOf
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> collection
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> currentTimeMillis
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> eq
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> finalizeHash
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> isInstanceOf
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> java
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> lang
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> mix
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> mutable
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> nodeID
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> numNode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> println
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> roundCount
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> roundCount_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> rounds
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> runtime
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> scala
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> shutdown
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> start
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> starttime
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> starttime_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> sys
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> system
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> terminate
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> toString
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> typedProductIterator
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> unchecked
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> util
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> ||
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> !
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> !=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> &&
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> *
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> +
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> +=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> -
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> /
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> <
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> <=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> <init>
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ==
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> >
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> >=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> A1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> AbstractFunction1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> AbstractFunction2
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Actor
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ActorRef
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ActorSelection
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ActorSystem
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ArrayBuffer
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> B1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Boolean
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Calculate
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Double
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Duration
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ExecutionContext
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Function1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> GenerateNeighbours
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> GetID
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> GossipNode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ID
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Implicits
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Int
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ListBuffer
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Math
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> None
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Predef
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Product
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> PushSumNode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Random
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ScalaRunTime
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> SendMessageToRandomNeighbours
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> SendSumToRandomNeighbours
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Serializable
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> Statics
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> String
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> _hashCode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> _toString
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> abs
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> actor
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> actorRef2Scala
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> actorSelection
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> akka
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> apply
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> asInstanceOf
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> cbrt
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> collection
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> concurrent
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> consecutive
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> consecutive_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> contains
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> context
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> difference
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> doubleHash
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> duration
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> duration1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> duration2
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> eq
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> finalizeHash
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> foreach
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> global
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> i
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> intWrapper
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> isAlive
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> isAlive_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> isInstanceOf
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> j
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> java
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> k
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> l
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> lang
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> length
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> loopGossip
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> loopPushSum
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> message
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> mix
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> moniter
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> msg
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> msgCount
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> msgCount_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> msg_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> mutable
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ne
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> neighbours
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> nextInt
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> nodeID
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> numNode
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> old_ratio
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> old_ratio_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> package
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> println
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> rand
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> randneighbour
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ratio
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ratio_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> roundCounter
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> roundCounter_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> roundScheduler
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> runtime
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> s
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> s_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> scala
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> schedule
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> scheduler
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> self
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ss
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> sumget
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> sumget_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> system
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> to
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> toDouble
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> toInt
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> toLowerCase
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> toScala
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> toString
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> topology
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> track
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> typedProductIterator
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> unchecked
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> util
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> w
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> w_=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> while$1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> while$2
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> while$3
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> while$4
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> while$5
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> while$6
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ww
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> ||
+product stamps:
+21 items
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$1.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$1$$anonfun$2.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$1.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$2$$anonfun$3.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$2.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/GossipNode$$anonfun$GenerateNeighbours$1.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/GossipNode$$anonfun$receive$1.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/GossipNode.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/Moniter$$anonfun$receive$1.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/Moniter.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/PushSumNode$$anonfun$GenerateNeighbours$2.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/PushSumNode$$anonfun$receive$2.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/PushSumNode.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopGossip$.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopGossip.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopPushSum$.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopPushSum.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/start$.class -> lastModified(1442758293000)
+/Users/Terence/Desktop/Normal/target/scala-2.11/classes/start.class -> lastModified(1442758293000)
+source stamps:
+3 items
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> hash(8d90bcd876275c072374bb3581fb8b3237673835)
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> hash(e80237014babd7126e71ce01b904cc14c94fb188)
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> hash(2edafea02561c05aad48f8e8e5fa0156f4a94a71)
+binary stamps:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1438711540000)
+/Users/Terence/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar -> lastModified(1441280160000)
+/Users/Terence/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar -> lastModified(1424912463000)
+class names:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/Terence/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar -> akka.actor.Actor
+/Users/Terence/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar -> scala.runtime.AbstractFunction1
+internal apis:
+3 items
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCk7xklAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cF95OwF0AAZub3RpZnlzcQB+AAzEsjLJdAAEd2FpdHNxAH4ADI2Q0wx0AA0kYXNJbnN0YW5jZU9mc3EAfgAMtxISgXQABmVxdWFsc3NxAH4ADLKSlwx0AAxhc0luc3RhbmNlT2ZzcQB+AAwBr1lwdAAMc3luY2hyb25pemVkc3EAfgAMcnJfL3QADSRpc0luc3RhbmNlT2ZzcQB+AAygA2cpdAAEbWFpbnNxAH4ADJMJw1F0AAZHb3NzaXBzcQB+AAzEasFedAAJbm90aWZ5QWxsc3EAfgAMfs4IUnQADGlzSW5zdGFuY2VPZnNxAH4ADHcJJR10AAI9PXNxAH4ADLQseCx0AAVjbG9uZXNxAH4ADKxd+hB0AAh0b1N0cmluZ3NxAH4ADH9TmaR0AAIhPXNxAH4ADKrebyt0AAhnZXRDbGFzc3NxAH4ADEMgxh10AAJuZXNxAH4ADC0nnWJ0AAJlcXNxAH4ADBlGv/p0AAIjI3NxAH4ADF6DGlV0AAhmaW5hbGl6ZXNxAH4ADEtjGql0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AH3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFl4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFgAcHNxAH4AXXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGFzcQB+AFgAcHNxAH4AXXVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AHXVxAH4AUAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBgdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AfnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGt4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFN0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHJbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGBzcQB+AHF0AAVBcnJheXEAfgB3dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHF0AAZTdHJpbmdzcQB+AHVzcQB+AHh1cQB+AHsAAAADc3EAfgB9dAAEamF2YXNxAH4AfXQABGxhbmdxAH4AgnNxAH4AWABwc3EAfgBddXEAfgA8AAAAAHNxAH4AWABwc3EAfgBddXEAfgCWAAAAAnNxAH4AcXQABk9iamVjdHEAfgCac3EAfgBxdAADQW55cQB+AHd1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+sYXY51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA3L1VzZXJzL1RlcmVuY2UvRGVza3RvcC9Ob3JtYWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFI2QvNh2J1wHI3S7NYH7izI3Zzg1
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD4Ou6zAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwU6hm8HQABHNlbGZzcQB+AAsPQDTCdAAHY29udGV4dHVxAH4ACQAAADJzcQB+AAtDTQ1TdAAGbm90aWZ5c3EAfgALe+KEmXQAB1JlY2VpdmVzcQB+AAt2KwVodAAEd2FpdHNxAH4AC+Ortm90AA5jb3B5JGRlZmF1bHQkMnNxAH4ACy5MSvV0AA0kYXNJbnN0YW5jZU9mc3EAfgALW9CvPXQADHByb2R1Y3RBcml0eXNxAH4ACzlAsuF0AAZlcXVhbHNzcQB+AAsCg8tTdAAMYXNJbnN0YW5jZU9mc3EAfgALrHbXUXQACWFsaXZlTm9kZXNxAH4AC6vQ2Tl0AAxzeW5jaHJvbml6ZWRzcQB+AAuK33b1dAANJGlzSW5zdGFuY2VPZnNxAH4ACwXguiN0AAdyZWNlaXZlc3EAfgALh+bMm3QACnByZVJlc3RhcnRzcQB+AAuW0T5EdAANYXJvdW5kUmVjZWl2ZXNxAH4ACyuBv7R0AAhjYW5FcXVhbHNxAH4AC++Ku310AAtwb3N0UmVzdGFydHNxAH4AC8lajhZ0AAhwb3N0U3RvcHNxAH4AC0VmS+J0AA1wcm9kdWN0UHJlZml4c3EAfgALMHjwpnQACW5vdGlmeUFsbHNxAH4AC3zJ+2l0AAl0ZXJtaW5hdGVzcQB+AAs9YmkIdAAKcm91bmRDb3VudHNxAH4ACy9FRp10ABFhcm91bmRQb3N0UmVzdGFydHNxAH4AC3xYLDB0AAxpc0luc3RhbmNlT2ZzcQB+AAuis9VZdAAGcm91bmRzc3EAfgALbaV6HXQAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAuedApxdAAOYXJvdW5kUG9zdFN0b3BzcQB+AAu8/dYVdAAGPGluaXQ+c3EAfgALcUWcIHQACHByZVN0YXJ0c3EAfgAL/Tlrj3QACXVuaGFuZGxlZHNxAH4AC9CQb7F0AAI9PXNxAH4AC3eRgeR0AAVjbG9uZXNxAH4ACyEUt/t0AAlzdGFydHRpbWVzcQB+AAvGZkIKdAAEY29weXNxAH4AC5L4wtF0AAZzZW5kZXJzcQB+AAunjKIjdAAIdG9TdHJpbmdzcQB+AAv8c8OJdAACIT1zcQB+AAvNpKPbdAAIZ2V0Q2xhc3NzcQB+AAuqaRO6dAAOY29weSRkZWZhdWx0JDFzcQB+AAs6PxhMdAAGbm9kZUlEc3EAfgALeIkSE3QAB01vbml0ZXJzcQB+AAuJyNtHdAAFc3RhcnRzcQB+AAvQYXiJdAACbmVzcQB+AAvhOddwdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALQkHTwXQAAmVxc3EAfgAL/tKXAnQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ACyrSuZR0AAIjI3NxAH4AC+GI+XV0AAhmaW5hbGl6ZXNxAH4AC2TUs/F0AA5wcm9kdWN0RWxlbWVudHNxAH4ACyn4rB10AAhoYXNoQ29kZXNxAH4AC7KQ3bp0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AH94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AY3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAA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
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAk0obWAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwJIEjPnQABHNlbGZzcQB+AAtQGu03dAAHY29udGV4dHVxAH4ACQAAAERzcQB+AAvuao92dAAGbm90aWZ5c3EAfgALqPYEynQAAklEc3EAfgALutEM/3QAAXNzcQB+AAszH+ZGdAAHUmVjZWl2ZXNxAH4AC0CZ8GN0AAZzdW1nZXRzcQB+AAt14VaodAAJZHVyYXRpb24yc3EAfgALKSPsMnQABHdhaXRzcQB+AAtoQrTndAAHaXNBbGl2ZXNxAH4AC9Pn1Z50AAtsb29wUHVzaFN1bXNxAH4ACwil7910AA5jb3B5JGRlZmF1bHQkMnNxAH4ACyF11790AA0kYXNJbnN0YW5jZU9mc3EAfgALaPDMR3QAEkdlbmVyYXRlTmVpZ2hib3Vyc3NxAH4AC0KRoHx0AAxwcm9kdWN0QXJpdHlzcQB+AAtylbrydAAGZXF1YWxzc3EAfgAL2lY/0XQACmxvb3BHb3NzaXBzcQB+AAs5ScULdAAMYXNJbnN0YW5jZU9mc3EAfgAL7u8RcnQAC2NvbnNlY3V0aXZlc3EAfgAL8KUvxHQADHJvdW5kQ291bnRlcnNxAH4AC9ukkB90AAxzeW5jaHJvbml6ZWRzcQB+AAswmwoWdAANJGlzSW5zdGFuY2VPZnNxAH4AC4y6Y7x0AAdyZWNlaXZlc3EAfgAL2w/A23QACnByZVJlc3RhcnRzcQB+AAvizAZ0dAAFR2V0SURzcQB+AAvtWq7ldAANYXJvdW5kUmVjZWl2ZXNxAH4ACzUtdFB0AAhjYW5FcXVhbHNxAH4ACxAIO4R0AAtwb3N0UmVzdGFydHNxAH4ACwarX/N0AAhtc2dDb3VudHNxAH4AC/8rPHl0AAhwb3N0U3RvcHNxAH4ACyxaOs50AA1wcm9kdWN0UHJlZml4c3EAfgALLomnBXQACW5vdGlmeUFsbHNxAH4AC3KR7Ap0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4ACzfLEXV0AAxpc0luc3RhbmNlT2ZzcQB+AAv4OBBLdAAQYXJvdW5kUHJlUmVzdGFydHNxAH4AC012fdF0AA5hcm91bmRQb3N0U3RvcHNxAH4AC5Sbqv90AAY8aW5pdD5zcQB+AAuqX5AfdAAIcHJlU3RhcnRzcQB+AAtFfIAGdAAFcmF0aW9zcQB+AAuI7YJDdAAJdW5oYW5kbGVkc3EAfgALEvidmnQADnJvdW5kU2NoZWR1bGVyc3EAfgALqiXhGnQAHVNlbmRNZXNzYWdlVG9SYW5kb21OZWlnaGJvdXJzc3EAfgALFPZkA3QAAj09c3EAfgALwkPJFXQABWNsb25lc3EAfgALNuitcnQACW9sZF9yYXRpb3NxAH4ACxW6S8Z0AAlDYWxjdWxhdGVzcQB+AAthQfFmdAAEY29weXNxAH4AC7AKl450AAZzZW5kZXJzcQB+AAtlHqIRdAAHbWVzc2FnZXNxAH4AC5sbPDt0AAh0b1N0cmluZ3NxAH4ACxOSmwl0AANtc2dzcQB+AAu+BRpgdAACIT1zcQB+AAvDt4LkdAAZU2VuZFN1bVRvUmFuZG9tTmVpZ2hib3Vyc3NxAH4AC6vb8Y10AAhnZXRDbGFzc3NxAH4AC09tNfN0AAlkdXJhdGlvbjFzcQB+AAs06vBUdAAOY29weSRkZWZhdWx0JDFzcQB+AAsBJLstdAAKR29zc2lwTm9kZXNxAH4ACys5TY10AAF3c3EAfgAL+S8HHnQACm5laWdoYm91cnNzcQB+AAvZ1c8UdAACbmVzcQB+AAvnUJKPdAAKZGlmZmVyZW5jZXNxAH4ACwlStP50ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAvPmqVEdAACZXFzcQB+AAuILpmFdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALjMTnoXQAAiMjc3EAfgAL6D1bjXQACGZpbmFsaXplc3EAfgALqjMApnQADnByb2R1Y3RFbGVtZW50c3EAfgALaEUpf3QAC1B1c2hTdW1Ob2Rlc3EAfgALi/TRT3QACGhhc2hDb2Rlc3EAfgALbcoSmnQADmFyb3VuZFByZVN0YXJ0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABHNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ao3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAvdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgC7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgC6AHBzcQB+AL9zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Ao0wACWluaGVyaXRlZHEAfgCjTAAHcGFyZW50c3EAfgCjeHEAfgDDc3EAfgC6AHBzcQB+AL91cQB+AJ4AAAAAc3EAfgC6AHBzcQB+AL91cQB+AJ4AAAAAc3EAfgC6AHBzcQB+AL91cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AMJ0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J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
+external apis:
+0 items
+source infos:
+3 items
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala -> 
+AAAAAAAAAAA=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala -> 
+AAAAAAAAAAA=
+/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala -> 
+AAAAAAAAAAA=
+compilations:
+33 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+HpH9p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+Hrwf91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+HvPq91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+H5U1V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+H7E8F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+H8Jlt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+IEqz51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+IFKbx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+IHbXF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+gGJmt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+gHJWV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+gS03p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+gdIj11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+g69SF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+g81/B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+g+jxB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+g/rwF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+hAJAt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+hDMf91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+19 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+hFjhZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+20 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+hOzu91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+21 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+hSgD51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+22 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+hVKXR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+23 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+jbEvt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+24 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+jwOMR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+j38AB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+j6L/51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+j7ha91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+j9x8h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+kAGrd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+kCj1N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+31 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+kHsaV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMi9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+32 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT+sYXY51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANy9Vc2Vycy9UZXJlbmNlL0Rlc2t0b3AvTm9ybWFsL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
