@@ -31,7 +31,7 @@ object LocalMinning {
     def receive = {
       case MiningRequest => {
         val processes = Runtime.getRuntime().availableProcessors()
-        numberOfSlave = processes*8
+        numberOfSlave = processes+2
         //println("NUmber : " + numberOfSlave)
         val times = 1000000;
         val workerRouter = context.actorOf(Props[Slave].withRouter(RoundRobinRouter(numberOfSlave)), name = "workerRouter")

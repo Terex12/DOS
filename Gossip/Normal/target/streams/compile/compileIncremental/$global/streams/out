@@ -1,45 +1,40 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set(/Users/Terence/Desktop/g/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/g/src/main/scala/gossip/Moniter.scala, /Users/Terence/Desktop/g/src/main/scala/gossip/Node.scala)[0m
-[0m[[0mdebug[0m] [0m	added: Set(/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala)[0m
+[0m[[0mdebug[0m] [0m	removed:Set(/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Moniter.scala, /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Node.scala)[0m
 [0m[[0mdebug[0m] [0m	modified: Set()[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/Terence/Desktop/g/target/scala-2.11/classes/Gossip$$anonfun$main$2$$anonfun$3.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/loopGossip$.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/PushSumNode.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/Gossip$$anonfun$main$2.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/loopPushSum.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/Gossip$.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/PushSumNode$$anonfun$GenerateNeighbours$2.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/GossipNode$$anonfun$GenerateNeighbours$1.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/Gossip$$anonfun$main$1.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/GossipNode$$anonfun$receive$1.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/Gossip.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/Moniter$$anonfun$receive$1.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/Gossip$$anonfun$1.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/Moniter.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/start$.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/loopPushSum$.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/PushSumNode$$anonfun$receive$2.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/Gossip$$anonfun$main$1$$anonfun$2.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/loopGossip.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/start.class, /Users/Terence/Desktop/g/target/scala-2.11/classes/GossipNode.class)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopPushSum.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopGossip$.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/GossipNode$$anonfun$receive$1.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Moniter$$anonfun$receive$1.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/PushSumNode.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$2.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopGossip.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$1.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$2$$anonfun$3.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$1$$anonfun$2.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/start.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/PushSumNode$$anonfun$receive$2.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Moniter.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/loopPushSum$.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/PushSumNode$$anonfun$GenerateNeighbours$2.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/GossipNode.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/Gossip$$anonfun$main$1.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/start$.class, /Users/Terence/Desktop/Normal/target/scala-2.11/classes/GossipNode$$anonfun$GenerateNeighbours$1.class)[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/g/src/main/scala/gossip/Moniter.scala, /Users/Terence/Desktop/g/src/main/scala/gossip/Node.scala, /Users/Terence/Desktop/g/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Node.scala, /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Moniter.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set(/Users/Terence/Desktop/g/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/g/src/main/scala/gossip/Node.scala, /Users/Terence/Desktop/g/src/main/scala/gossip/Moniter.scala)[0m
+[0m[[0mdebug[0m] [0m	product: Set(/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala)[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/g/src/main/scala/gossip/Moniter.scala, /Users/Terence/Desktop/g/src/main/scala/gossip/Node.scala, /Users/Terence/Desktop/g/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala)[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Node.scala, /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Gossip.scala, /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Moniter.scala, /Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala)[0m
 [0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (6) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /Users/Terence/Desktop/Normal/target/scala-2.11/classes...[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /Users/Terence/Desktop/DOS/Gossip/Normal/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 15214770, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 24f63b2d, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes:/Users/Terence/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/Users/Terence/Desktop/Normal/target/scala-2.11/classes:/Users/Terence/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/Users/Terence/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/Terence/Desktop/DOS/Gossip/Normal/target/scala-2.11/classes:/Users/Terence/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/Users/Terence/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
 [0m[[33mwarn[0m] [0mthere were two deprecation warnings; re-run with -deprecation for details[0m
 [0m[[33mwarn[0m] [0mone warning found[0m
-[0m[[0mdebug[0m] [0mScala compilation took 7.18678697 s[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/Terence/Desktop/g/src/main/scala/gossip/Node.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Terence/Desktop/g/src/main/scala/gossip/Node.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Terence/Desktop/g/src/main/scala/gossip/Node.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Terence/Desktop/g/src/main/scala/gossip/Node.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/Terence/Desktop/g/src/main/scala/gossip/Node.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0mScala compilation took 7.914904618 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Node.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Node.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Node.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Node.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Node.scala source file has the following implicit definitions changed:[0m
 [0m[[0mdebug[0m] [0m	self, context.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/Terence/Desktop/g/src/main/scala/gossip/Gossip.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Terence/Desktop/g/src/main/scala/gossip/Gossip.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Terence/Desktop/g/src/main/scala/gossip/Gossip.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Terence/Desktop/g/src/main/scala/gossip/Gossip.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/Terence/Desktop/g/src/main/scala/gossip/Gossip.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, Gossip, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Node.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Gossip.scala[0m
 [0m[[0mdebug[0m] [0mInvalidating /Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala...[0m
 [0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala...[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala)[0m
@@ -54,16 +49,23 @@
 [0m[[0mdebug[0m] [0mThe /Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala source file has the following implicit definitions changed:[0m
 [0m[[0mdebug[0m] [0m	self, context.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Terence/Desktop/Normal/src/main/scala/gossip/Moniter.scala are invalidated:[0m
-[0m[[0mdebug[0m] [0m	/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala[0m
-[0m[[0mdebug[0m] [0m	/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/Terence/Desktop/g/src/main/scala/gossip/Moniter.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Terence/Desktop/g/src/main/scala/gossip/Moniter.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Terence/Desktop/g/src/main/scala/gossip/Moniter.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Terence/Desktop/g/src/main/scala/gossip/Moniter.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/Terence/Desktop/g/src/main/scala/gossip/Moniter.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Gossip.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Gossip.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Gossip.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Gossip.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Gossip.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, Gossip, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Moniter.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Moniter.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Moniter.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Moniter.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Moniter.scala source file has the following implicit definitions changed:[0m
 [0m[[0mdebug[0m] [0m	self, context.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Moniter.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	/Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Gossip.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/Terence/Desktop/DOS/Gossip/Normal/src/main/scala/gossip/Node.scala[0m
 [0m[[0mdebug[0m] [0mInvalidating /Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala...[0m
 [0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala...[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala)[0m
@@ -71,8 +73,6 @@
 [0m[[0mdebug[0m] [0mThe /Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala source file has the following implicit definitions changed:[0m
 [0m[[0mdebug[0m] [0m	self, context.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following member ref dependencies of /Users/Terence/Desktop/Normal/src/main/scala/gossip/Node.scala are invalidated:[0m
-[0m[[0mdebug[0m] [0m	/Users/Terence/Desktop/Normal/src/main/scala/gossip/Gossip.scala[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
