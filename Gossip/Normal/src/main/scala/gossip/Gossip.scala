@@ -17,14 +17,14 @@ object Gossip {
         for (i <- 0 to numNode - 1) {
           var node = system.actorOf(Props(new Node(numNode, topology, algo, i, moniter)), name = i.toString)
         }
-        if (topology == "imp3d"){
+        if (topology.toLowerCase() == "imp3d"){
           var numNode1: Int = numNode
           if(numNode % 2 == 1)
             numNode1 = numNode-1
           val groups = Random.shuffle(List.range(0, numNode1)).splitAt(numNode1/2)
-          println("Group1 : " + groups._1 + " || group2 : " + groups._2)
+          //println("Group1 : " + groups._1 + " || group2 : " + groups._2)
           val partnerMap = (groups._1 zip groups._2).toMap ++ (groups._2 zip groups._1).toMap
-          println("Map : " + partnerMap)
+          //println("Map : " + partnerMap)
           for (i <- 0 to numNode - 1) {
             var node = system.actorSelection("/user/" + i)
             node ! Map(partnerMap)
@@ -39,7 +39,7 @@ object Gossip {
         }
         var firstNode = system.actorFor("/user/" + Random.nextInt(numNode))
         println("Start Node is : " + firstNode.path + '\n')
-        println("Starting Gossip Algorothm... \n")
+        println("Starting Gossip Algorithm... \n")
         moniter ! "Start Spread"
         firstNode ! gossipM("This is the message")
       }
@@ -48,14 +48,14 @@ object Gossip {
          for (i <- 0 to numNode - 1) {
           var node = system.actorOf(Props(new Node(numNode, topology, algo, i, moniter)), name = i.toString)
         }
-        if (topology == "imp3d"){
+        if (topology.toLowerCase() == "imp3d"){
           var numNode1: Int = numNode
           if(numNode % 2 == 1)
             numNode1 = numNode-1
           val groups = Random.shuffle(List.range(0, numNode1)).splitAt(numNode1/2)
-          println("Group1 : " + groups._1 + " || group2 : " + groups._2)
+          //println("Group1 : " + groups._1 + " || group2 : " + groups._2)
           val partnerMap = (groups._1 zip groups._2).toMap ++ (groups._2 zip groups._1).toMap
-          println("Map : " + partnerMap)
+          //println("Map : " + partnerMap)
           for (i <- 0 to numNode - 1) {
             var node = system.actorSelection("/user/" + i)
             node ! Map(partnerMap)

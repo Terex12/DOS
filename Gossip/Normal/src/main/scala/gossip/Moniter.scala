@@ -15,6 +15,7 @@ class Moniter(numNode: Int, system: ActorSystem) extends Actor {
   var roundCount: Int = 0
   var starttime: Long = 0
   var wakeup: Int = 0
+  var sum: Double = 0.0
   
   def receive = {
     case "Start Spread" => {
@@ -25,12 +26,7 @@ class Moniter(numNode: Int, system: ActorSystem) extends Actor {
       wakeup += 1
     }
     case finish(nodeID: Int) => {
-      println("==Node " + nodeID + " Dead ==")
       deadNode += 1
-      println("NUm Wake Up : " + wakeup)
-      println("Dead : " + deadNode)
-
-
       if (deadNode == wakeup && wakeup < numNode){
         println("No Alive Node, Network not Converged")
         terminate

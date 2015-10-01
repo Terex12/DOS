@@ -54,23 +54,14 @@ class Node(numNode: Int, topology: String, algo: String, nodeID: Int, moniter: A
     case Wakeup =>{
        if (msgCount < 10  && neighbours.length > 0) {
          SendMessageToRandomNeighbours
-         val duration = Duration(0, "s")
+         val duration = Duration(10, "ms")
          context.system.scheduler.scheduleOnce(duration, self, Wakeup)
         }
-        else if (msgCount >= 10  && neighbours.length > 0){
-            for (i <- 0 to neighbours.length-1){
+        else{
+          for (i <- 0 to neighbours.length-1){
               val neighbour = context.actorFor("akka://GossipSystem/user/" + neighbours(i).toString)
               neighbour ! DieIfo(ID)
             }
-            moniter ! finish(ID)
-            context.stop(self)
-          } 
-
-        else if(msgCount >= 10 && neighbours.length == 0){
-            moniter ! finish(ID)
-            context.stop(self)
-          }
-        else{
           moniter ! finish(ID)
           context.stop(self)
         }
@@ -97,7 +88,7 @@ class Node(numNode: Int, topology: String, algo: String, nodeID: Int, moniter: A
       
       if(consecutive < 3 && neighbours.length > 0 ) {
         SendPushToRandomNeighbours
-        val duration = Duration(0, "s")
+        val duration = Duration(100, "ms")
         context.system.scheduler.scheduleOnce(duration, self, PSWakeup)
       }
       else{
@@ -115,17 +106,23 @@ class Node(numNode: Int, topology: String, algo: String, nodeID: Int, moniter: A
 
   def SendMessageToRandomNeighbours = {
     if(neighbours.length > 0){
-      var rand = Random.nextInt(neighbours.length)
+      val rand = Random.nextInt(neighbours.length)
       //println("Current NOde : " +  self.path + " || Neighbour List Lenght : " + neighbours.length + " || Rand : "  + rand)
       var randneighbour = context.actorSelection("akka://GossipSystem/user/" + neighbours(rand).toString)
+      //val rand = new Random
+      //rand.setSeed(System.currentTimeMillis() ^ (neighbours.hashCode toLong))
+      //var r = rand.nextInt(neighbours.length)
+      //println("Current NOde : " +  self.path + " || Neighbour List Lenght : " + neighbours.length + " || Rand : "  + r)
+      //var randneighbour = context.actorSelection("akka://GossipSystem/user/" + neighbours(r).toString)
       randneighbour ! gossipM(msg)
     }
   }
   def SendPushToRandomNeighbours = {
     if(neighbours.length > 0){
-      var rand = Random.nextInt(neighbours.length)
-      //println("Current NOde : " +  self.path + " || Neighbour List Lenght : " + neighbours.length + " || Rand : "  + rand)
-      var randneighbour = context.actorSelection("akka://GossipSystem/user/" + neighbours(rand).toString)
+      val rand = new Random
+      rand.setSeed(System.currentTimeMillis() ^ (neighbours.hashCode toLong))
+      var r = rand.nextInt(neighbours.length)
+      var randneighbour = context.actorSelection("akka://GossipSystem/user/" + neighbours(r).toString)
       randneighbour ! pushSum(s/2, w/2)
       s /= 2
       w /= 2
@@ -152,7 +149,7 @@ class Node(numNode: Int, topology: String, algo: String, nodeID: Int, moniter: A
         val j = (ID - (k-1)*length*length)/length + 1 
         val i = ID - (k-1)*length*length - (j-1)*length +1
         var n = -1
-        println("ID : "+ ID + " k : " + k + " j : " + j + " i : " + i)
+        //println("ID : "+ ID + " k : " + k + " j : " + j + " i : " + i)
         var track = 1
         while (track <= 6){
           track match {
@@ -230,7 +227,7 @@ class Node(numNode: Int, topology: String, algo: String, nodeID: Int, moniter: A
             }
           }
         }
-        println("Self Node is : " + self.path + " || neighbours list : " + neighbours.toString)
+        //println("Self Node is : " + self.path + " || neighbours list : " + neighbours.toString)
       }
       case "imp3d" => {
         //(i,j,k)
@@ -313,7 +310,7 @@ class Node(numNode: Int, topology: String, algo: String, nodeID: Int, moniter: A
         /////
         if (map.contains(ID))
           neighbours += map(ID)
-        println("Self Node is : " + self.path + " || neighbours list : " + neighbours.toString)
+        //println("Self Node is : " + self.path + " || neighbours list : " + neighbours.toString)
       }
     } 
   }
