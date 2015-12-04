@@ -1,0 +1,22 @@
+GET:
+  Single Node:
+	"http://127.0.0.1:8080/[1-9*]"
+	"http://127.0.0.1:8080/[1-9*]?id&name&bod&type"										//user
+	"http://127.0.0.1:8080/[1-9*]/albums/[1-9*]?id&name&intro&type"						//album
+	"http://127.0.0.1:8080/[1-9*]/albums/[1-9*]/photos/[1-9*]?id&name&date&type"		//photo
+  Collections:
+    "http://127.0.0.1:8080/[1-9*]/posts"
+    "http://127.0.0.1:8080/[1-9*]/posts?title&content"
+	"http://127.0.0.1:8080/[1-9*]/albums"
+	"http://127.0.0.1:8080/[1-9*]/albums?id&name&intro&type"
+	"http://127.0.0.1:8080/[1-9*]/albums/photos"
+	"http://127.0.0.1:8080/[1-9*]/albums/photos?id&name&type"
+	"http://127.0.0.1:8080/[1-9*]/friendlist"
+POST:
+  Create:
+	"http://127.0.0.1:8080/page?name=[\w*]&bod=[\d*]"					//user page
+	"http://127.0.0.1:8080/[1-9*]/posts?title=[\w*]&content=[\w*]"		//post
+	"http://127.0.0.1:8080/[1-9*]/albums?name=[\w*]&intro=[\w*]"		//album
+	"http://127.0.0.1:8080/[1-9*]/albums/[1-9*]/photos?name=[\w*]"		//photo
+
+	
